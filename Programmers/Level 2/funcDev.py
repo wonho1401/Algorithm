@@ -3,7 +3,6 @@ import collections
 def solution(progresses, speeds):
     answer = []
     flag = 0
-    count = 0
     h = [100]*len(progresses)
     for i in range(len(h)):
         progresses[i] = h[i] - progresses[i]

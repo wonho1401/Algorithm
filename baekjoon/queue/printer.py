@@ -9,8 +9,6 @@ for _ in range(x):
     cnt = 0
     for i in range(len(q)):
         q_tuple.append([q[i], i])
-    # top = max(q_tuple)
-    # print(top[0])
     while q_tuple:
         top = max(q_tuple)
         pop = q_tuple.pop(0)
